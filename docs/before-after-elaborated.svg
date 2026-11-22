@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640">
+<rect width="960" height="640" rx="16" fill="#0b1220"/>
+<text x="20" y="24" fill="#e8eef7" font-family="sans-serif" font-size="16" font-weight="700">Incentive Analytics (Snowflake) — Before / After</text>
+<rect x="10" y="40" width="940" height="280" rx="14" fill="#0f1a2e" stroke="#d97706" stroke-width="2"/>
+<g><title>Before: manual spreadsheets, no history, and reports that arrive late.</title><rect x="10" y="40" width="940" height="34" rx="14" fill="#d97706"/><text x="24" y="63" fill="#ffffff" font-family="sans-serif" font-size="15" font-weight="700">BEFORE</text></g>
+<g><title>Dealer bonuses worked out in spreadsheets, so they are slow and hard to audit.</title>
+<rect x="121" y="103" width="104" height="64" rx="10" fill="#1a2a44" stroke="#2a3a55" stroke-width="1.5"/>
+<circle cx="173" cy="127" r="18" fill="#5b6b82"/><text x="173" y="132" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">XL</text>
+<text x="173" y="159" fill="#e8eef7" font-family="sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">Bonus spreadsheets</text>
+</g>
+<text x="173" y="183" fill="#aeb9cc" font-family="sans-serif" font-size="9.5" text-anchor="middle">manual</text>
+<g><title>Invoice, cost and dealer data scattered, so reporting needs manual joins.</title>
+<rect x="428" y="103" width="104" height="64" rx="10" fill="#1a2a44" stroke="#2a3a55" stroke-width="1.5"/>
+<circle cx="480" cy="127" r="18" fill="#5b6b82"/><text x="480" y="132" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">D</text>
+<text x="480" y="159" fill="#e8eef7" font-family="sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">Scattered invoices</text>
+</g>
+<text x="480" y="183" fill="#aeb9cc" font-family="sans-serif" font-size="9.5" text-anchor="middle">no joins</text>
+<g><title>No historic comparison, so a bonus cannot be judged against the same quarter last year.</title>
+<rect x="734" y="103" width="104" height="64" rx="10" fill="#1a2a44" stroke="#2a3a55" stroke-width="1.5"/>
+<circle cx="786" cy="127" r="18" fill="#5b6b82"/><text x="786" y="132" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">!</text>
+<text x="786" y="159" fill="#e8eef7" font-family="sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">No historic patterns</text>
+</g>
+<text x="786" y="183" fill="#aeb9cc" font-family="sans-serif" font-size="9.5" text-anchor="middle">one quarter</text>
+<g><title>Tiers worked out by hand, so similar dealers can get different treatment.</title>
+<rect x="198" y="213" width="104" height="64" rx="10" fill="#1a2a44" stroke="#2a3a55" stroke-width="1.5"/>
+<circle cx="250" cy="237" r="18" fill="#5b6b82"/><text x="250" y="242" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">T</text>
+<text x="250" y="269" fill="#e8eef7" font-family="sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">Manual tiering</text>
+</g>
+<text x="250" y="293" fill="#aeb9cc" font-family="sans-serif" font-size="9.5" text-anchor="middle">inconsistent</text>
+<g><title>Reports built by hand and delivered late, so decisions use stale numbers.</title>
+<rect x="658" y="213" width="104" height="64" rx="10" fill="#1a2a44" stroke="#2a3a55" stroke-width="1.5"/>
+<circle cx="710" cy="237" r="18" fill="#5b6b82"/><text x="710" y="242" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">R</text>
+<text x="710" y="269" fill="#e8eef7" font-family="sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">Slow reporting</text>
+</g>
+<text x="710" y="293" fill="#aeb9cc" font-family="sans-serif" font-size="9.5" text-anchor="middle">weeks late</text>
+<line x1="173" y1="135" x2="480" y2="135" stroke="#d97706" stroke-width="2" stroke-dasharray="4 4" opacity="0.7"/>
+<polygon points="480,135 472,131 472,139" fill="#d97706"/>
+<line x1="480" y1="135" x2="786" y2="135" stroke="#d97706" stroke-width="2" stroke-dasharray="4 4" opacity="0.7"/>
+<polygon points="786,135 778,131 778,139" fill="#d97706"/>
+<line x1="786" y1="135" x2="250" y2="245" stroke="#d97706" stroke-width="2" stroke-dasharray="4 4" opacity="0.7"/>
+<polygon points="250,245 242,241 242,249" fill="#d97706"/>
+<line x1="250" y1="245" x2="710" y2="245" stroke="#d97706" stroke-width="2" stroke-dasharray="4 4" opacity="0.7"/>
+<polygon points="710,245 702,241 702,249" fill="#d97706"/>
+<circle r="6" fill="#ff9900"><animateMotion dur="6s" repeatCount="indefinite" path="M173,135 L480,135 L786,135 L250,245 L710,245"/></circle>
+<rect x="10" y="340" width="940" height="280" rx="14" fill="#0f1a2e" stroke="#0d9488" stroke-width="2"/>
+<g><title>After: Snowflake transformations with historic patterns, tiering, and dashboard-ready gold.</title><rect x="10" y="340" width="940" height="34" rx="14" fill="#0d9488"/><text x="24" y="363" fill="#ffffff" font-family="sans-serif" font-size="15" font-weight="700">AFTER</text></g>
+<g><title>Dealer sales and bonus data as the source for every transformation.</title>
+<rect x="83" y="403" width="104" height="64" rx="10" fill="#1a2a44" stroke="#2a3a55" stroke-width="1.5"/>
+<circle cx="135" cy="427" r="18" fill="#2F81F7"/><text x="135" y="432" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">DS</text>
+<text x="135" y="459" fill="#e8eef7" font-family="sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">Dealer sales sources</text>
+</g>
+<text x="135" y="483" fill="#aeb9cc" font-family="sans-serif" font-size="9.5" text-anchor="middle">synthetic</text>
+<g><title>Staging in Snowflake built for large-volume transformations.</title>
+<rect x="313" y="403" width="104" height="64" rx="10" fill="#1a2a44" stroke="#2a3a55" stroke-width="1.5"/>
+<circle cx="365" cy="427" r="18" fill="#29B5E8"/><text x="365" y="432" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">SF</text>
+<text x="365" y="459" fill="#e8eef7" font-family="sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">Snowflake staging</text>
+</g>
+<text x="365" y="483" fill="#aeb9cc" font-family="sans-serif" font-size="9.5" text-anchor="middle">large volume</text>
+<g><title>Snowflake SQL transformations that clean and conform the data at scale.</title>
+<rect x="543" y="403" width="104" height="64" rx="10" fill="#1a2a44" stroke="#2a3a55" stroke-width="1.5"/>
+<circle cx="595" cy="427" r="18" fill="#8C4FFF"/><text x="595" y="432" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">TR</text>
+<text x="595" y="459" fill="#e8eef7" font-family="sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">Heavy transformations</text>
+</g>
+<text x="595" y="483" fill="#aeb9cc" font-family="sans-serif" font-size="9.5" text-anchor="middle">SQL models</text>
+<g><title>Trend flags comparing each quarter with the same quarter last year.</title>
+<rect x="773" y="403" width="104" height="64" rx="10" fill="#1a2a44" stroke="#2a3a55" stroke-width="1.5"/>
+<circle cx="825" cy="427" r="18" fill="#0d9488"/><text x="825" y="432" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">HT</text>
+<text x="825" y="459" fill="#e8eef7" font-family="sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">Historic trend flags</text>
+</g>
+<text x="825" y="483" fill="#aeb9cc" font-family="sans-serif" font-size="9.5" text-anchor="middle">vs last year</text>
+<g><title>Tiers set from historic patterns and multiple parameters, not a single number.</title>
+<rect x="83" y="513" width="104" height="64" rx="10" fill="#1a2a44" stroke="#2a3a55" stroke-width="1.5"/>
+<circle cx="135" cy="537" r="18" fill="#E25A1C"/><text x="135" y="542" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">BT</text>
+<text x="135" y="569" fill="#e8eef7" font-family="sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">Bonus tiering</text>
+</g>
+<text x="135" y="593" fill="#aeb9cc" font-family="sans-serif" font-size="9.5" text-anchor="middle">historic patterns</text>
+<g><title>Variable payment estimate per dealer per quarter, ready for review.</title>
+<rect x="313" y="513" width="104" height="64" rx="10" fill="#1a2a44" stroke="#2a3a55" stroke-width="1.5"/>
+<circle cx="365" cy="537" r="18" fill="#FF9900"/><text x="365" y="542" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">VP</text>
+<text x="365" y="569" fill="#e8eef7" font-family="sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">Variable payment</text>
+</g>
+<text x="365" y="593" fill="#aeb9cc" font-family="sans-serif" font-size="9.5" text-anchor="middle">estimate</text>
+<g><title>Dashboard-ready gold table, one row per dealer per quarter.</title>
+<rect x="543" y="513" width="104" height="64" rx="10" fill="#1a2a44" stroke="#2a3a55" stroke-width="1.5"/>
+<circle cx="595" cy="537" r="18" fill="#01A88D"/><text x="595" y="542" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">G</text>
+<text x="595" y="569" fill="#e8eef7" font-family="sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">Gold table</text>
+</g>
+<text x="595" y="593" fill="#aeb9cc" font-family="sans-serif" font-size="9.5" text-anchor="middle">dashboard-ready</text>
+<g><title>Dealer bonus and variable payment dashboards on the gold table.</title>
+<rect x="773" y="513" width="104" height="64" rx="10" fill="#1a2a44" stroke="#2a3a55" stroke-width="1.5"/>
+<circle cx="825" cy="537" r="18" fill="#5b6b82"/><text x="825" y="542" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="700" text-anchor="middle">BI</text>
+<text x="825" y="569" fill="#e8eef7" font-family="sans-serif" font-size="10.5" font-weight="700" text-anchor="middle">Bonus dashboards</text>
+</g>
+<text x="825" y="593" fill="#aeb9cc" font-family="sans-serif" font-size="9.5" text-anchor="middle">dealer reporting</text>
+<line x1="135" y1="435" x2="365" y2="435" stroke="#0d9488" stroke-width="2" stroke-dasharray="4 4" opacity="0.7"/>
+<polygon points="365,435 357,431 357,439" fill="#0d9488"/>
+<line x1="365" y1="435" x2="595" y2="435" stroke="#0d9488" stroke-width="2" stroke-dasharray="4 4" opacity="0.7"/>
+<polygon points="595,435 587,431 587,439" fill="#0d9488"/>
+<line x1="595" y1="435" x2="825" y2="435" stroke="#0d9488" stroke-width="2" stroke-dasharray="4 4" opacity="0.7"/>
+<polygon points="825,435 817,431 817,439" fill="#0d9488"/>
+<line x1="825" y1="435" x2="135" y2="545" stroke="#0d9488" stroke-width="2" stroke-dasharray="4 4" opacity="0.7"/>
+<polygon points="135,545 127,541 127,549" fill="#0d9488"/>
+<line x1="135" y1="545" x2="365" y2="545" stroke="#0d9488" stroke-width="2" stroke-dasharray="4 4" opacity="0.7"/>
+<polygon points="365,545 357,541 357,549" fill="#0d9488"/>
+<line x1="365" y1="545" x2="595" y2="545" stroke="#0d9488" stroke-width="2" stroke-dasharray="4 4" opacity="0.7"/>
+<polygon points="595,545 587,541 587,549" fill="#0d9488"/>
+<line x1="595" y1="545" x2="825" y2="545" stroke="#0d9488" stroke-width="2" stroke-dasharray="4 4" opacity="0.7"/>
+<polygon points="825,545 817,541 817,549" fill="#0d9488"/>
+<circle r="6" fill="#ff9900"><animateMotion dur="6s" repeatCount="indefinite" path="M135,435 L365,435 L595,435 L825,435 L135,545 L365,545 L595,545 L825,545"/></circle>
+</svg>

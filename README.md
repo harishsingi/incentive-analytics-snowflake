@@ -14,3 +14,9 @@ python -m pytest tests/ -q
 ```
 ## Gold output
 Per dealer, per quarter: units, bonus tier, variable payment estimate, historic trend flag (improving / flat / declining versus the same quarter last year).
+
+## Architecture — Before / After
+
+Hover any component to see what it is and why it is needed.
+
+![Before / After architecture](docs/before-after-elaborated.svg)

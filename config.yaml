@@ -1,0 +1,36 @@
+# Configuration for the incentive-analytics pipeline.
+# All values are synthetic demo parameters. Tier thresholds and payment
+# rates must match sql/bonus_gold.sql if that SQL is edited.
+# No credentials belong in this file; Snowflake credentials, when used,
+# come only from environment variables (see src/incentive_analytics/snowflake_loader.py).
+
+seed: 19
+dealer_count: 30
+quarters:
+  - 2024Q1
+  - 2024Q2
+  - 2024Q3
+  - 2024Q4
+  - 2025Q1
+  - 2025Q2
+  - 2025Q3
+  - 2025Q4
+transactions_per_quarter:
+  min: 3
+  max: 6
+units_per_transaction:
+  min: 40
+  max: 180
+tiers:
+  platinum_min_units: 500
+  gold_min_units: 250
+# Illustrative synthetic payment per unit, by tier. NOT real bonus rates.
+variable_payment_per_unit:
+  platinum: 150
+  gold: 100
+  standard: 50
+trend_threshold_pct: 0.05
+paths:
+  sales_csv: data/sales.csv
+  gold_csv: data/gold.csv
+  quarantine_csv: data/quarantine.csv

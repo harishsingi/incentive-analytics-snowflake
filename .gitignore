@@ -1,0 +1,9 @@
+# Generated data and caches; the pipeline regenerates data/ on demand.
+data/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+*.egg-info/
+build/
+dist/
